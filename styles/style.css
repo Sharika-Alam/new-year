@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* button */
+.btn-primary {
+    height: 64px;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+}
+
+/* Header starts here */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/banner/banner2.png');
+}
+
+.header-section {
+    text-align: right;
+    padding-top: 316px;
+    padding-right: 230px;
+    padding-left: 60%;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #151414;
+}
+
+.header-paragragh {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* main  */
+.about {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.person-type {
+    padding-right: 30%;
+}
+
+.person-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.person-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.person-list {
+    list-style: none;
+    color: #444343;
+}
+
+.person-section {
+    /* image add korba  */
+    background-image: url(../images/pngaaa.com-631635.png);
+    background-size: 530px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+/* My plans */
+
+.plan {
+    width: 1141px;
+    height: 299.96px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.plan-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 30px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.plan-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 20px;
+    color: #737272;
+
+}
+
+/* blog */
+.blog {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+.blog-description{
+    padding-top: 30px;
+
+}
+
+.blog-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #151414;
+}
+
+.blog-sub-title {
+    padding-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.blog-image {
+    width: 569px;
+    height: 623.3px;
+    border-radius: 20px;
+}
+
+.travel {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: #151414;
+}
+
+.blog-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.travel:hover {
+    color: #F15B22;
+}
+
+/* bottom banner */
+
+
+.bottom-banner {
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 1120px;
+    height: 300px;
+    margin-top: 124px;
+    margin-left: 20%;
+
+    padding-top: 60px;
+    padding-left: 65px;
+
+}
+
+.banner-title {
+    color: #FFFFFF;
+}
+
+.call-btn {
+    text-decoration: none;
+    color: #006FD1;
+
+}
+
+.call-btn {
+    width: 160px;
+    height: 64px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#btn-call {
+    text-decoration: none;
+    color: #F15B22;
+}
+
+
+/* Footer Style */
+
+footer {
+    background-color: black;
+    margin-top: 130px;
+}
+
+.contact-subscribe {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 70px;
+
+}
+
+.contact {
+    width: 485px;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+.contact p {
+    color: #fff;
+    line-height: 26px;
+}
+
+.icon {
+    margin-top: 35px;
+}
+
+.icon img {
+    padding-right: 25px;
+}
+
+.subscribe h3 {
+    color: #fff;
+}
+
+.subscribe h3 {
+    margin-bottom: 15px;
+}
+
+#email {
+    width: 225px;
+    height: 44px;
+    background-color: black;
+    color: #F3F3F3;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 2px 22px;
+    border: 1px solid #FFFFFF;
+}
+
+.subscribe-btn {
+    width: 120px;
+    height: 51px;
+    color: #e95318;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
